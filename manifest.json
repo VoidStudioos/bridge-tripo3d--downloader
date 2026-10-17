@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bridge 3D Studio",
+  "version": "2.0.0",
+  "description": "Discover permitted 3D assets and inspect, convert, and export local meshes.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "options_page": "studio.html"
+}
